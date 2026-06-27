@@ -1,0 +1,17 @@
+[
+  {"name": "Virat Kohli", "age": 35, "playerType": "batter"},
+  {"name": "Rohit Sharma", "age": 36, "playerType": "batter"},
+  {"name": "Jasprit Bumrah", "age": 30, "playerType": "bowler"},
+  {"name": "Ravindra Jadeja", "age": 35, "playerType": "allrounder"},
+  {"name": "Hardik Pandya", "age": 31, "playerType": "allrounder"},
+  {"name": "KL Rahul", "age": 31, "playerType": "batter"},
+  {"name": "Yuzvendra Chahal", "age": 33, "playerType": "bowler"},
+  {"name": "Mohammed Shami", "age": 34, "playerType": "bowler"},
+  {"name": "Shreyas Iyer", "age": 29, "playerType": "batter"},
+  {"name": "Suryakumar Yadav", "age": 18, "playerType": "batter"},
+  {"name": "Rishabh Pant", "age": 26, "playerType": "batter"},
+  {"name": "Ravichandran Ashwin", "age": 37, "playerType": "bowler"},
+  {"name": "Axar Patel", "age": 31, "playerType": "allrounder"},
+  {"name": "Shardul Thakur", "age": 17, "playerType": "bowler"},
+  {"name": "Ishan Kishan", "age": 18, "playerType": "batter"}
+]

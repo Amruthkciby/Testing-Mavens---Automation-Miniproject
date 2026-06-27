@@ -1,0 +1,22 @@
+{
+  "name": "automation-miniproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amruthkciby/Testing-Mavens---Automation-Miniproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Amruthkciby/Testing-Mavens---Automation-Miniproject/issues"
+  },
+  "homepage": "https://github.com/Amruthkciby/Testing-Mavens---Automation-Miniproject#readme"
+}
