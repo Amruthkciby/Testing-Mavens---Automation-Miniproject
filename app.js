@@ -6,5 +6,5 @@ import { Team } from './models/Team.js';
 
 const { team1, team2 } = selectTeams();
 
-console.log('Team 1:', RCB);
-console.log('Team 2:', CSK);
+console.log('RCB:', team1);
+console.log('CSK:', team2);
