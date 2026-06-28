@@ -1,8 +1,8 @@
 import { Player } from './Player.js';
 
 export class Bowler extends Player {
-  constructor(name, age) {
-    super(name, age, 'Bowler');
+  constructor(name, age, basePrice = 0, soldPrice = 0) {
+    super(name, age, 'Bowler', basePrice, soldPrice);
     this.playerType = 'bowler';
   }
 }

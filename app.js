@@ -10,12 +10,12 @@ eligiblePlayers.forEach((player) => {
 });
 
 console.log('\nAuction Result');
-console.log('\nCSK:');
-team1.forEach((player) => {
+console.log(`\n${team1.name}:`);
+team1.players.forEach((player) => {
   console.log(`ID: ${player.id}, Name: ${player.name}, Age: ${player.age}, PlayerType: ${player.playerType}, Base Price: ${player.basePrice}, Sold Price: ${player.soldPrice}`);
 });
 
-console.log('\nRCB:');
-team2.forEach((player) => {
+console.log(`\n${team2.name}:`);
+team2.players.forEach((player) => {
   console.log(`ID: ${player.id}, Name: ${player.name}, Age: ${player.age}, PlayerType: ${player.playerType}, Base Price: ${player.basePrice}, Sold Price: ${player.soldPrice}`);
 });
