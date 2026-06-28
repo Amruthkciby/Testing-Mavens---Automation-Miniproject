@@ -1,7 +1,7 @@
-import { selectPlayers, selectTeams } from './utils/playerSelector.js';
+import { PlayerSelector } from './utils/playerSelector.js';
 
-const eligiblePlayers = selectPlayers();
-const { team1, team2 } = selectTeams();
+const eligiblePlayers = PlayerSelector.selectPlayers();
+const { team1, team2 } = PlayerSelector.selectTeams();
 
 console.log('Cricket Auction Manager');
 console.log('Eligible Players:');

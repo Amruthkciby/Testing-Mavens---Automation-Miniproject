@@ -22,20 +22,22 @@ function createPlayer(data) {
   return player;
 }
 
-export function selectPlayers() {
-  const fileContents = fs.readFileSync(dataPath, 'utf8');
-  const players = JSON.parse(fileContents);
+export class PlayerSelector {
+  static selectPlayers() {
+    const fileContents = fs.readFileSync(dataPath, 'utf8');
+    const players = JSON.parse(fileContents);
 
-  return players
-    .filter((player) => player.age >= 18)
-    .slice(0, 10)
-    .map(createPlayer);
-}
+    return players
+      .filter((player) => player.age >= 18)
+      .slice(0, 10)
+      .map(createPlayer);
+  }
 
-export function selectTeams() {
-  const players = selectPlayers();
-  const team1 = new Team('CSK', players.slice(0, 5));
-  const team2 = new Team('RCB', players.slice(5, 10));
+  static selectTeams() {
+    const players = PlayerSelector.selectPlayers();
+    const team1 = new Team('CSK', players.slice(0, 5));
+    const team2 = new Team('RCB', players.slice(5, 10));
 
-  return { team1, team2 };
+    return { team1, team2 };
+  }
 }
