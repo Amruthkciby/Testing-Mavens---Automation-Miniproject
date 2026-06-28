@@ -1,7 +1,8 @@
-export class Batter {
+import { Player } from './Player.js';
+
+export class Batter extends Player {
   constructor(name, age) {
-    this.name = name;
-    this.age = age;
+    super(name, age, 'Batter');
     this.playerType = 'batter';
   }
 }

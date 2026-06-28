@@ -9,6 +9,7 @@ export function selectPlayers() {
 
   return players
     .filter(player => player.age >= 18)
+    .slice(0, 10)
     .map(player => ({ ...player, name: player.name.toUpperCase() }));
 }
 

@@ -1,7 +1,8 @@
-export class Allrounder {
+import { Player } from './Player.js';
+
+export class Allrounder extends Player {
   constructor(name, age) {
-    this.name = name;
-    this.age = age;
+    super(name, age, 'AllRounder');
     this.playerType = 'allrounder';
   }
 }
