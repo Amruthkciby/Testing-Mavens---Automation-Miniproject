@@ -1,6 +1,6 @@
 import { selectPlayers, selectTeams } from './utils/playerSelector.js';
 
-const eligiblePlayers = selectPlayers().map((player) => ({ ...player, soldPrice: 0 }));
+const eligiblePlayers = selectPlayers();
 const { team1, team2 } = selectTeams();
 
 console.log('Cricket Auction Manager');
